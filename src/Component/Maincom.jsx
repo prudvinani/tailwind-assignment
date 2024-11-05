@@ -13,17 +13,17 @@ const Maincom = () => {
   return (
 <>
 
-<div className='  w-full   '>
-<div className='h-24 bg-black -z-10 w-full '>
+<div className='   w-full  '>
+<div className='h-24 bg-black -z-10'>
 
 </div>
 
-<div className='h-48  '>
-<div className='grid  md:grid-cols-10 gap-8 p-8 grid-rows-1'>
+<div className='h-48 w-full  '>
+<div className='grid  md:grid-cols-10 gap-6 p-8 grid-rows-1'>
 
 
 
-<div className='h-[410px] rounded-xl md:z-50 z-0 relative bg-white shadow-md col-span-2 -translate-y-14 text-center flex-1 p-5 ml-6 md:ml-0 w-full'>
+<div className='h-[410px] rounded-xl md:z-50 z-0 relative bg-white shadow-md col-span-2 -translate-y-14 text-center flex-1 p-5  md:ml-0 w-full'>
 <div className='  rounded-lg flex flex-col justify-center items-center  ' >
         {/* <img src={react}/>
          */}
