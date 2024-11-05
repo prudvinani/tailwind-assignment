@@ -17,7 +17,7 @@ const Maincom = () => {
 <div className='w-full'>
 
 
-    <div className='bg-yellow-100 h-32' >
+    <div className='bg-blue-300 h-32' >
 
     </div>
 <div className='grid  md:grid-cols-10  gap-6 grid-rows-1 md:p-8   '>
@@ -48,9 +48,9 @@ const Maincom = () => {
 <div className=' -translate-x-10 p-2' >
 <div className='flex items-center justify-between '>
 <div className='flex items-center mb-4'>
-<SlCalender className='mr-2' />
+<SlCalender className='mr-2 md:mr-2' />
 <p className='font-semibold md:text-lg text-sm'>Sunday, 11 November </p>
-<FaChevronDown  className='mt-1 ml-1'/>
+<FaChevronDown  className='mt-1 ml-1 mr-1'/>
 </div>
 <div className='flex items-center'>
 <FaArrowLeft  className='mr-1 text-gray-600 md:text-sm -translate-y-1' />
@@ -151,7 +151,7 @@ const Maincom = () => {
 
 <div className='grid grid-cols-2    '>
         <div className='flex flex-col items-center'>
-<div className='bg-teal-400 rounded-lg p-2'>
+<div className='bg-blue-300 rounded-lg p-2'>
 <GrSchedule size={25} />
 
     </div>       
@@ -159,7 +159,7 @@ const Maincom = () => {
      <p style={{fontSize:"13px",fontWeight:500}}> Schedule a Webinar</p>
         </div>
         <div className='flex flex-col items-center '>
-<div className='bg-teal-400 rounded-lg p-2'>
+<div className='bg-blue-300 rounded-lg p-2'>
 <FaPlus size={20} />
 
     </div>       
@@ -171,7 +171,7 @@ const Maincom = () => {
 
 
         <div className='flex flex-col items-center mt-5 '>
-<div className='bg-teal-400 rounded-lg p-2'>
+<div className='bg-blue-300 rounded-lg p-2'>
 <GrSchedulePlay size={25} />
 
     </div>       
