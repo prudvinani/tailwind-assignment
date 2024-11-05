@@ -34,7 +34,7 @@ if(isDesktop==false){
 }
 },[isDesktop])
   return (
-<div className='flex w-full bg-white'  >
+<div className='flex'  >
 
   <Header SidebarOpen={SidebarOpen} setSidebarOpen={setSidebarOpen}/>
   <Maincom SidebarOpen={SidebarOpen}/>

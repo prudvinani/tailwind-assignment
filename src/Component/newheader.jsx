@@ -6,7 +6,6 @@ import { CgProfile } from "react-icons/cg";
 import { IoIosSettings } from "react-icons/io";
 import { MdOutlineMenu } from "react-icons/md";
 import anime from "../assets/anime.jpg"
-
 const useMediaQuery = (query) => {
     const [matches, setMatches] = useState(true);
 
@@ -22,7 +21,11 @@ const useMediaQuery = (query) => {
 
     return matches;
 };
+
+
+
 const Header = ({ SidebarOpen, setSidebarOpen }) => {
+
     const isDesktop = useMediaQuery("(min-width:768px)")
     useEffect(() => {
         if (isDesktop == false) {
@@ -35,7 +38,7 @@ const Header = ({ SidebarOpen, setSidebarOpen }) => {
 
     if (!SidebarOpen) {
         return (<div className='left-0  top-0  transition ease-in-out delay-150drop-shadow-md h-screen '>
-            <MdOutlineMenu onClick={() => setSidebarOpen(!SidebarOpen)} className='cursor-pointer m-1 text-right z-50' size={18} />
+            <MdOutlineMenu onClick={() => setSidebarOpen(!SidebarOpen)} className='cursor-pointer m-3 text-right z-50' size={20} />
 
 
 
