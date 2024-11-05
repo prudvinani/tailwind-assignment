@@ -23,7 +23,7 @@ const Maincom = () => {
 
 
 
-<div className='h-[410px] rounded-xl md:z-50 z-0 relative bg-white shadow-md col-span-2 -translate-y-14 text-center flex-1 p-5 ml-6 md:ml-0'>
+<div className='h-[410px] rounded-xl md:z-50 z-0 relative bg-white shadow-md col-span-2 -translate-y-14 text-center flex-1 p-5 ml-6 md:ml-0 w-full'>
 <div className='  rounded-lg flex flex-col justify-center items-center  ' >
         {/* <img src={react}/>
          */}
@@ -37,10 +37,10 @@ const Maincom = () => {
 
 
 
-<div className='h-96 rounded-xl  col-span-5 -translate-x-4 w-full md:ml-2 text-center md:text-left -translate-y-7 '>
+<div className='h-96 rounded-xl  col-span-5    -translate-x-[60px] md:-translate-x-0  text-center md:text-left w-full'>
 <p className='ml-4  text-black '>Sunday, 11 November </p>
 <p className='font-bold  text-black text-xl ml-4'>Good morning, Sumanth.👋 </p>    
-<div className='bg-white drop-shadow-2xl p-11 ml-5 rounded-lg mt-3 md:mt-0'>
+<div className='bg-white drop-shadow-2xl p-11 ml-5 rounded-lg md:mt-0'>
 
 
 
@@ -146,7 +146,7 @@ const Maincom = () => {
 
 
 
-<div className='h-52 rounded-xl col-span-3 drop-shadow-md py-5 mt-16 bg-white w-80 text-center ml-6 md:ml-0 '>
+<div className='h-52 rounded-xl col-span-3 drop-shadow-md py-5 mt-16 bg-white w-80 text-center ml-6 md:ml-0  -translate-x-8 md:-translate-x-0'>
 
 <div className='grid grid-cols-2    '>
         <div className='flex flex-col items-center'>

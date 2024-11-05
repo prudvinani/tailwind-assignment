@@ -2,11 +2,8 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import Header from './Component/Header'
-import Lastdata from './Component/Lastdata'
 import Maincom from './Component/Maincom'
-import Profile from './Component/Profile'
-import { MdOutlineMenu } from "react-icons/md";
-import { GiCancel } from "react-icons/gi";
+
 
 
 const useMediaQuery = (query) => {
