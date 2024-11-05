@@ -37,7 +37,7 @@ const Maincom = () => {
 
 
 
-<div className='h-96 rounded-xl  col-span-5    -translate-x-[60px] md:-translate-x-0  text-center md:text-left w-full'>
+<div className='h-96 rounded-xl  col-span-5    -translate-x-[60px] md:-translate-x-4  text-center md:text-left w-full'>
 <p className='ml-4  text-black '>Sunday, 11 November </p>
 <p className='font-bold  text-black text-xl ml-4'>Good morning, Sumanth.👋 </p>    
 <div className='bg-white drop-shadow-2xl p-11 ml-5 rounded-lg md:mt-0'>
